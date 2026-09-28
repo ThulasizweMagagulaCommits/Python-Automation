@@ -1,5 +1,10 @@
+"""
+Writing instractions and sending them over serial communication to printer - Junior Python Developer Portfolio
+Author: Thulasizwe Magagula
+Purpose: Automation - Writing instractions and sending them over serial communication to printer
+Demonstrates working with serial module, automating communication  printing on thermal printers and other micro control devices
+"""
 import serial
-
 ser = serial.Serial("/dev/ttyUSB0", 19200, timeout=10)
 
 ESC = b'\0x1b 0x3D 0x01'
