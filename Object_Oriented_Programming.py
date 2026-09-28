@@ -2,7 +2,7 @@
 Utilising Object Oriented programming to write efficient code  - Junior Python Developer Portfolio
 Author: Thulasizwe Magagula
 Purpose: Automation - Utilising Object Oriented programming to write efficient code
-Demonstrates working with random, system and Operating Systems modules
+Demonstrates working with random, system and Operating Systems modules. Working with objects, classes, instances and inheritance 
 """
 import random
 import sys
